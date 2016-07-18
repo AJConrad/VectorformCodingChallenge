@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ItC-EM-fSN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--ColorInterfaceController-->
+        <scene sceneID="mMU-2n-IL8">
+            <objects>
+                <controller identifier="ColorInterfaceController" id="ItC-EM-fSN" customClass="ColorInterfaceController" customModule="VectorWatchChallenge_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" id="UzV-on-0an">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" id="vmm-uI-AC5"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="colorImage" destination="vmm-uI-AC5" id="rc9-Cc-DUO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="270" y="280"/>
+        </scene>
+    </scenes>
+</document>

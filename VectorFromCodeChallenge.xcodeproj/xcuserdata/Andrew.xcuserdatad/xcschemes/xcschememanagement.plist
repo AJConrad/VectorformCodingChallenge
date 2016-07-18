@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>VectorWatchChallenge.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>497436A61D3C87DD00E78890</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>497436BF1D3C897B00E78890</key>
 		<dict>
 			<key>primary</key>
 			<true/>
